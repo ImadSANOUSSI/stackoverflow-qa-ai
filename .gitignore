@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Data / Artifacts (keep repo lean)
+data/
+datasets/
+models/
+checkpoints/
+outputs/
+*.dat
+*.pkl
+*.npy
+*.npz
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.faiss
+*.index
+*.bin
+*.zip
+*.7z
+*.tar*
+*.csv
+
+# Streamlit
+.streamlit/secrets.toml

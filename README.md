@@ -1,4 +1,6 @@
-# qa_app
+# stackoverflow-qa-ai
+
+
 
 ## Overview
 This project builds a semantic search over StackOverflow data using SentenceTransformers and a pure NumPy memmap vector store (no native compilers or extra system installs required). It serves a professional Streamlit app that answers your question with the best-matching answer from the trained index.
